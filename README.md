@@ -1,3 +1,4 @@
+```
 # rplacews.js
 
 cd ~
@@ -16,3 +17,5 @@ sudo ln -s ~/node/lib/node_modules/pm2/bin/pm2 /usr/local/bin/pm2
 pm2 install pm2-logrotate
 sudo pm2 startup -u `whoami`
 pm2 start follow_stream.js
+
+```
